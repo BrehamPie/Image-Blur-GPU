@@ -74,7 +74,16 @@ The program will:
 
 ## Performance
 
-Typical speedup observed on a mid-range GPU is **10× to 100×** over CPU for medium-sized images (e.g., 512×512). Speedup depends on image size, CPU optimizations, and GPU kernel efficiency.
+Average blur times measured over 5 runs for CPU and GPU implementations on different image dimensions:
+
+| Image Size (px) | CPU Time (ms) | GPU Time (ms) | Speedup (CPU / GPU) |
+|-----------------|---------------|---------------|---------------------|
+| 512 × 512       | 20.90         | 0.45          | ~46.5×              |
+| 1024 × 1024     | 86.61         | 1.14          | ~76.1×              |
+| 2048 × 2048     | 335.40        | 4.68          | ~71.7×              |
+
+The GPU implementation offers a substantial speedup compared to the CPU, especially on larger images.
+
 
 ---
 

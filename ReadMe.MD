@@ -18,14 +18,14 @@ This project implements a simple **image blur filter** (box blur) using both CPU
 
 ## Project Structure
 
-.
-├── include/           ← Header files
-├── src/               ← Source files (.cpp, .cu)
-├── obj/               ← Object files (auto-generated)
-├── bin/               ← Executable output
-├── image/             ← Input images
-├── README.md          ← This file
-├── Makefile           ← Build configuration
+.\
+├── include/     ← Header files\
+├── src/         ← Source files (.cpp, .cu)\
+├── obj/         ← Object files (auto-generated)\
+├── bin/         ← Executable output\
+├── image/       ← Input images\
+├── README.md    ← This file\
+├── Makefile     ← Build configuration
 
 
 ---
